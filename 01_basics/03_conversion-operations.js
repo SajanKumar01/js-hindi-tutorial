@@ -1,8 +1,8 @@
 //! conversion and operations
 
-// ? conversion  ++++++++++
+// ?  +++++++++++++ conversion  ++++++++++
 
-let score = "33abc"
+let score = "33abc";
 // let score = null
 // let score = undefined
 // let score = true
@@ -11,7 +11,7 @@ let score = "33abc"
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -21,10 +21,10 @@ let valueInNumber = Number(score)
  *  true => 1 , / false => 0
  */
 
-//  true => 1 , / false => 0 let's try it 
+//  true => 1 , / false => 0 let's try it
 
-let isLoggedIn = ""
-let BooleanIsLoggedIn = Boolean(isLoggedIn)
+let isLoggedIn = "";
+let BooleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(BooleanIsLoggedIn);
 
 /**
@@ -33,8 +33,42 @@ let BooleanIsLoggedIn = Boolean(isLoggedIn)
  * "sajan" => true
  */
 
-let someNumber = 55
+let someNumber = 55;
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+let stringNumber = String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//?  ++++++++++++++++++++ Operations  ++++++++++++++++++++++
+
+let value = 5;
+let negValue = -value;
+// console.log(negValue);
+
+/**
+ * console.log(2+2);
+ * console.log(2-2);
+ * console.log(2*2);
+ * console.log(2**2);
+ * console.log(2/2);
+ * console.log(2%2);
+ */
+
+let str1 = "sajan";
+let str2 = " kumar";
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+/*console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log((6 + 4) * 5 % 5);
+*/
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
