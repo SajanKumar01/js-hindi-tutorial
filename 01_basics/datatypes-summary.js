@@ -66,6 +66,8 @@ let userOne = {
     upi: "user@ybl"
 }
 
+console.log(userOne); 
+
 let userTwo = userOne
 userTwo.email = "usertwo@gmail.com"
 console.log(userOne.email);
