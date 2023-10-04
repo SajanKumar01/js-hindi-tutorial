@@ -22,7 +22,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -45,3 +45,29 @@ console.log(id === anotherId);
 // console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++  MEMORIES  ++++++++++++++++++++++++++
+
+// 01. Stack memory, and  02.Heap memory
+
+// Stack memory use in (Primitive data types)    ....   Heap memory use in (Non Primitive )
+
+let myYoutubeName = "sajankumar.com"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "usertwo@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
