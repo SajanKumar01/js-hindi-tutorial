@@ -5,7 +5,7 @@ const myHeros = ["shaktman", "naagraj"];
 
 const myarrTwo = new Array(1, 2, 3, 4, 5, 6, 7);
 
-// console.log(myArr[4]);
+// console.log(myArrOne[4]);
 
 const myArr = [0, 1, 2, 3, 4, 5];
 
@@ -35,7 +35,7 @@ console.log(newArr);*/
 
 // ? slice, Splice
 
-const myArrs = [0, 1, 2, 3, 4, 5];
+/*const myArrs = [0, 1, 2, 3, 4, 5];
 
 console.log("A ", myArrs);
 
@@ -49,6 +49,6 @@ console.log("B ", myArrs);
 const myn2 = myArrs.splice(1, 3)
 console.log(myn2);
 
-console.log("C ", myArrs);
+console.log("C ", myArrs);*/
 
 
