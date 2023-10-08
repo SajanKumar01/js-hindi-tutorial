@@ -84,11 +84,11 @@ const {Mentor: tor} = course
 console.log(tor);
 
 
-{
-    "name": "hitesh",
-    "coursename": "js in hindi",
-    "price": "free"
-}
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
 [
     {},
