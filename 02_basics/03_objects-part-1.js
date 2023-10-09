@@ -33,14 +33,14 @@ jsUser.email = "krhitesh50@gmail.com"
 // Object.freeze(jsUser)
 
 
-jsUser.greeting = function () {
-    console.log("hello js user");
+// object kai ander function ko add  kiya 
+
+jsUser.greeting = function(){
+    console.log("Hello JS user");
+}
+jsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
 }
 
-
-jsUser.greetingtwo = function () {
-    console.log(`hello js user, ${this.name}`);
-}
-
-
-console.log(jsUser.greetingtwo());
+console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());

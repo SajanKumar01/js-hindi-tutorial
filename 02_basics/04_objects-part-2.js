@@ -30,6 +30,8 @@ const obj3 = {5: "a", 6: "b"}
 
 // const obj4 = { obj1, obj2 }
 const obj4 = Object.assign({}, obj1, obj2, obj3)
+// console.log(obj4);
+
 
 // const obj4 = {...obj1, ...obj2, ...obj3}
 // console.log(obj4);
@@ -70,18 +72,16 @@ users[1].email
 const course = {
     courseName: "js in hindi",
     price: "1000",
-    Mentor: "sajan"
+    Mentor: "Hitesh sir..."
 }
 
 // course.Mentor
 
+// const {Mentor} = course
+// console.log(Mentor);
 
-const {Mentor} = course
-console.log(Mentor);
-
-
-const {Mentor: tor} = course
-console.log(tor);
+// const {Mentor: tor} = course
+// console.log(tor);
 
 
 // {
