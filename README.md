@@ -1,2 +1,2 @@
 # js-hindi-tutorial
-My JavaScript code's in hindi.......
+My JavaScript code's 
