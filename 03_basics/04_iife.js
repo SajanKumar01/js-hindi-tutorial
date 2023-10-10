@@ -2,6 +2,8 @@
 
 
 (function cofi() {
+
+    // this is a named iife
     console.log(`DB CONNECTED`);
 })();
 
